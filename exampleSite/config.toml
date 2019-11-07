@@ -32,7 +32,7 @@ enableGitInfo = true
     weight = 1
   [[menu.nav]]
     name = "Blog"
-    url = "/post/"
+    url = "/posts/"
     weight = 2
   [[menu.nav]]
     name = "Tags"
