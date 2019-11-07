@@ -1,5 +1,5 @@
 ---
-title: "Cupper Shortcodes"
+title: "Cup Shortcodes"
 date: 2019-02-12T23:39:06-06:00
 tags: [hugo, shortcodes]
 ---
@@ -198,25 +198,25 @@ Here is some markdown including [a link](https://twitter.com/heydonworks). Donec
 * Selling point three
 {{% /ticks %}}
 
-## figureCupper
+## figureCup
 
 ```
-{{</* figureCupper
-img="sun.jpg" 
-caption="The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process. It is by far the most important source of energy for life on Earth. [Credits](https://images.nasa.gov/details-GSFC_20171208_Archive_e000393.html)." 
-command="Resize" 
+{{</* figureCup
+img="sun.jpg"
+caption="The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process. It is by far the most important source of energy for life on Earth. [Credits](https://images.nasa.gov/details-GSFC_20171208_Archive_e000393.html)."
+command="Resize"
 options="700x" */>}}
 ```
 
-{{< figureCupper
-img="sun.jpg" 
-caption="The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process. It is by far the most important source of energy for life on Earth. [Credits](https://images.nasa.gov/details-GSFC_20171208_Archive_e000393.html)." 
-command="Resize" 
+{{< figureCup
+img="sun.jpg"
+caption="The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process. It is by far the most important source of energy for life on Earth. [Credits](https://images.nasa.gov/details-GSFC_20171208_Archive_e000393.html)."
+command="Resize"
 options="700x" >}}
 
 ## principles
 
-See the [full principles list](https://github.com/zwbetz-gh/cupper-hugo-theme/blob/master/data/principles.json).
+See the [full principles list](https://github.com/kmuncie/hugo-cup-theme/blob/master/data/principles.json).
 
 ```
 {{%/* principles include="Add value, Be consistent" descriptions="true" */%}}
@@ -226,7 +226,7 @@ See the [full principles list](https://github.com/zwbetz-gh/cupper-hugo-theme/bl
 
 ## wcag
 
-See the [full wcag list](https://github.com/zwbetz-gh/cupper-hugo-theme/blob/master/data/wcag.json). 
+See the [full wcag list](https://github.com/kmuncie/hugo-cup-theme/blob/master/data/wcag.json).
 
 ```
 {{%/* wcag include="1.2.1, 1.3.1, 4.1.2" */%}}
@@ -236,7 +236,7 @@ See the [full wcag list](https://github.com/zwbetz-gh/cupper-hugo-theme/blob/mas
 
 ## tested
 
-See the [full browser list](https://github.com/zwbetz-gh/cupper-hugo-theme/tree/master/static/images).
+See the [full browser list](https://github.com/kmuncie/hugo-cup-theme/tree/master/static/images).
 
 ```
 {{%/* tested using="Firefox + JAWS, Chrome, Safari iOS + Voiceover, Edge" */%}}

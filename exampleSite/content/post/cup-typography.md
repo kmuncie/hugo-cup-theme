@@ -1,5 +1,5 @@
 ---
-title: "Cupper Typography"
+title: "Cup Typography"
 date: 2019-02-14T15:36:09-06:00
 tags: [hugo, markdown]
 ---
@@ -135,7 +135,7 @@ This
 <html>
 ```
 
-tag is block code. 
+tag is block code.
 ````
 
 This
@@ -144,4 +144,4 @@ This
 <html>
 ```
 
-tag is block code. 
+tag is block code.

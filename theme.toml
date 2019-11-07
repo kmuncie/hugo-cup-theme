@@ -1,15 +1,15 @@
-name = "Cupper"
+name = "Cup"
 license = "MIT"
-licenselink = "https://github.com/zwbetz-gh/cupper-hugo-theme/blob/master/LICENSE"
-description = "An accessibility-friendly Hugo theme, ported from the original Cupper project."
-homepage = "https://github.com/zwbetz-gh/cupper-hugo-theme"
-tags = ["accessible", "blog", "documentation", "dark"]
-features = ["accessible", "blog", "documentation", "dark"]
+licenselink = "https://github.com/kmuncie/hugo-cup-theme/blob/master/LICENSE"
+description = "An accessibility-friendly Hugo blog theme, adapted from the adapted Cupper theme."
+homepage = "https://github.com/kmuncie/hugo-cup-theme"
+tags = ["accessible", "blog", "minimal"]
+features = ["accessible", "blog", "minimal"]
 min_version = "0.58.3"
 
 [author]
-  name = "Zachary Betz"
-  homepage = "https://zwbetz.com/"
+  name = "Kevin Muncie"
+  homepage = "https://kmuncie.com"
 
 [original]
   name = "Cupper"
