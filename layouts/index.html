@@ -8,7 +8,9 @@
 
          <div class="container">
 
-            {{ range sort (.Paginator 2).Pages }}
+            {{ $home_pagination := .Site.Params.paginationCount | default 5 }}
+
+            {{ range sort (.Paginator $home_pagination).Pages }}
 
             <article>
                <h3 class="subtitle is-6 date">{{ .Date.Format "January 2, 2006" }}</h3>

@@ -19,6 +19,7 @@ imaging:
 params:
   description: An accessibility-friendly Hugo theme, adapted from the [Cupper Hugo Theme](https://github.com/zwbetz-gh/cupper-hugo-theme) which was ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
   homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
+  paginationCount: 5
   footer: Made with [Hugo](https://gohugo.io/).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
