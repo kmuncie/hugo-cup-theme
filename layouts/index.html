@@ -1,6 +1,30 @@
 {{ define "main" }}
-  <main id="main">
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
-  </main>
+   <main id="main">
+
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+
+      <section class="section">
+
+         <div class="container">
+
+            {{ range sort (.Paginator 2).Pages }}
+
+            <article>
+               <h3 class="subtitle is-6 date">{{ .Date.Format "January 2, 2006" }}</h3>
+               <h2 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</h2>
+               <div class="content">
+                  {{ .Content }}
+               </div>
+            </article>
+
+            {{ end }}
+
+            {{ partial "pagination.html" . }}
+
+         </div>
+
+      </section>
+
+   </main>
 {{ end }}
