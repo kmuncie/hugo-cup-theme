@@ -89,3 +89,5 @@ If you run into an issue that isn't answered by this documentation or the [`exam
 ## Credits
 
 Thank you to [Zachary Betz](https://zwbetz.com/) for the basis of this adpatation, as well as [Heydon Pickering](http://www.heydonworks.com) and [The Paciello Group](https://www.paciellogroup.com/) for creating the original Cupper project.
+
+Logo is a beautiful illustration from [Open Doodles](https://www.opendoodles.com/).
