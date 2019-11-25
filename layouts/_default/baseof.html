@@ -54,7 +54,18 @@
         </div>
       </div>
     </div>
-    {{ partial "script.html" . }}
+
+    {{ $domScripts := resources.Get "js/dom-scripts.js" }}
+    {{ $prism := resources.Get "js/prism.js" }}
+
+    {{ $distJS := slice $prism $domScripts | resources.Concat "js/global.js" }}
+
+    {{ if .Site.IsServer }}
+      <script type="text/javascript" src="{{ $distJS.RelPermalink }}"></script>
+    {{ else }}
+      <script type="text/javascript" src="{{ ($distJS | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
     {{ partial "katex.html" . }}
     {{ partial "google-analytics-async.html" . }}
   </body>
