@@ -20,7 +20,10 @@ An accessibility-friendly Hugo theme, adapted from the [Cupper Hugo Theme](https
 
 ## Demo
 
-TODO: Add Demo site
+[![Netlify
+Status](https://api.netlify.com/api/v1/badges/2eb4e000-526b-4b74-867f-a14a48ef34d1/deploy-status)](https://app.netlify.com/sites/hugo-cup-theme/deploys)
+
+See a live demo of this theme at: [https://hugo-cup-theme.netlify.com](https://hugo-cup-theme.netlify.com)
 
 ## Minimum Hugo version
 
