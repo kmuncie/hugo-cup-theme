@@ -402,7 +402,7 @@ caption {
 .main-and-footer > div {
    max-width: 40rem;
    margin: 0 auto;
-   padding: 2.25rem;
+   padding: 0 2.25rem;
 }
 
 [role="contentinfo"] {
@@ -414,7 +414,7 @@ caption {
 
 /* Patterns navigation */
 .patterns {
-   margin: 1.5rem 0;
+   margin-top: 1.5rem;
 }
 
 .patterns * {
@@ -519,6 +519,7 @@ caption {
 .patterns-list {
    list-style: none;
    margin-left: 0;
+   padding: 0;
 }
 
 .patterns-list h2 {
@@ -1035,6 +1036,9 @@ h1 svg {
    }
 
    .intro {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
    }
 
@@ -1057,6 +1061,7 @@ h1 svg {
    #patterns-list {
       margin-top: 0.5rem;
       border: 1px solid;
+      padding: 0;
    }
 
    .patterns h3 {
